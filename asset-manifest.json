@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d9a92e8.css",
-    "main.js": "/static/js/main.de60224b.js",
-    "static/media/gyeongwonjae_20240227143436.mp4": "/static/media/gyeongwonjae_20240227143436.b56d39e161686dfbbef2.mp4",
-    "static/media/로얄스위트_07_1216x608_20170817171221.jpg": "/static/media/로얄스위트_07_1216x608_20170817171221.3dea0c6a8c3253ae5ad6.jpg",
-    "static/media/영빈관_01_1216x608_20170818120442.jpg": "/static/media/영빈관_01_1216x608_20170818120442.d561409bdf074658b1be.jpg",
-    "static/media/수라 홀 - 1 PC_20171123181649.jpg": "/static/media/수라 홀 - 1 PC_20171123181649.cf4730f82533840b809c.jpg",
-    "static/media/Traditional_Wedding_Full_PC_20190513130327.jpg": "/static/media/Traditional_Wedding_Full_PC_20190513130327.44aa9f0c035b6b9104d6.jpg",
-    "static/media/Deluxeondol_New_1216_608_20211118135049.jpg": "/static/media/Deluxeondol_New_1216_608_20211118135049.c7a4f4186a910318b7e3.jpg",
-    "static/media/디럭스 누마루 2 PC_20171120185606.jpg": "/static/media/디럭스 누마루 2 PC_20171120185606.404b81de0e99f362fe8e.jpg",
-    "static/media/Deluxe_Suite_PC_1216_608_20180911165436.jpg": "/static/media/Deluxe_Suite_PC_1216_608_20180911165436.af03ffda7e370f5f310b.jpg",
-    "static/media/디럭스 더블 3 PC_20171219162518.jpg": "/static/media/디럭스 더블 3 PC_20171219162518.3fdf61c3915341f3a974.jpg",
-    "static/media/pc384256_20240126133128.jpg": "/static/media/pc384256_20240126133128.ef7b1447d7d91490fb27.jpg",
-    "static/media/RB_384256_20240305175614.jpg": "/static/media/RB_384256_20240305175614.0313c916795c2f7cf8db.jpg",
-    "static/media/spring_384256_20240226183019.jpg": "/static/media/spring_384256_20240226183019.fe1385791639a3a670d8.jpg",
-    "static/media/pc384256_20240108172202.jpg": "/static/media/pc384256_20240108172202.19050fc6fd2f6bb56ea5.jpg",
-    "static/media/upgrade_384256_20240117184430.jpg": "/static/media/upgrade_384256_20240117184430.ddcc7dac289a43319891.jpg",
-    "index.html": "/index.html",
-    "main.9d9a92e8.css.map": "/static/css/main.9d9a92e8.css.map",
-    "main.de60224b.js.map": "/static/js/main.de60224b.js.map"
+    "main.css": "/gwj/static/css/main.9d9a92e8.css",
+    "main.js": "/gwj/static/js/main.4a705f85.js",
+    "static/media/gyeongwonjae_20240227143436.mp4": "/gwj/static/media/gyeongwonjae_20240227143436.b56d39e161686dfbbef2.mp4",
+    "static/media/로얄스위트_07_1216x608_20170817171221.jpg": "/gwj/static/media/로얄스위트_07_1216x608_20170817171221.3dea0c6a8c3253ae5ad6.jpg",
+    "static/media/영빈관_01_1216x608_20170818120442.jpg": "/gwj/static/media/영빈관_01_1216x608_20170818120442.d561409bdf074658b1be.jpg",
+    "static/media/수라 홀 - 1 PC_20171123181649.jpg": "/gwj/static/media/수라 홀 - 1 PC_20171123181649.cf4730f82533840b809c.jpg",
+    "static/media/Traditional_Wedding_Full_PC_20190513130327.jpg": "/gwj/static/media/Traditional_Wedding_Full_PC_20190513130327.44aa9f0c035b6b9104d6.jpg",
+    "static/media/Deluxeondol_New_1216_608_20211118135049.jpg": "/gwj/static/media/Deluxeondol_New_1216_608_20211118135049.c7a4f4186a910318b7e3.jpg",
+    "static/media/디럭스 누마루 2 PC_20171120185606.jpg": "/gwj/static/media/디럭스 누마루 2 PC_20171120185606.404b81de0e99f362fe8e.jpg",
+    "static/media/Deluxe_Suite_PC_1216_608_20180911165436.jpg": "/gwj/static/media/Deluxe_Suite_PC_1216_608_20180911165436.af03ffda7e370f5f310b.jpg",
+    "static/media/디럭스 더블 3 PC_20171219162518.jpg": "/gwj/static/media/디럭스 더블 3 PC_20171219162518.3fdf61c3915341f3a974.jpg",
+    "static/media/pc384256_20240126133128.jpg": "/gwj/static/media/pc384256_20240126133128.ef7b1447d7d91490fb27.jpg",
+    "static/media/RB_384256_20240305175614.jpg": "/gwj/static/media/RB_384256_20240305175614.0313c916795c2f7cf8db.jpg",
+    "static/media/spring_384256_20240226183019.jpg": "/gwj/static/media/spring_384256_20240226183019.fe1385791639a3a670d8.jpg",
+    "static/media/pc384256_20240108172202.jpg": "/gwj/static/media/pc384256_20240108172202.19050fc6fd2f6bb56ea5.jpg",
+    "static/media/upgrade_384256_20240117184430.jpg": "/gwj/static/media/upgrade_384256_20240117184430.ddcc7dac289a43319891.jpg",
+    "index.html": "/gwj/index.html",
+    "main.9d9a92e8.css.map": "/gwj/static/css/main.9d9a92e8.css.map",
+    "main.4a705f85.js.map": "/gwj/static/js/main.4a705f85.js.map"
   },
   "entrypoints": [
     "static/css/main.9d9a92e8.css",
-    "static/js/main.de60224b.js"
+    "static/js/main.4a705f85.js"
   ]
 }
