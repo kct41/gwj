@@ -1,3 +1,5 @@
+/* global kakao */
+
 import {Map, MapMarker} from "react-kakao-maps-sdk";
 function Kamap(){
     return(
