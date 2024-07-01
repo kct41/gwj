@@ -1,10 +1,6 @@
 import './App.css';
 import Nav from "./comp/Nav";
-import Main from "./comp/Main";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Rooms from "./comp/Rooms";
-import SpecialOffer from "./comp/SpecialOffer";
-import Information from "./comp/Information";
 import Footer from "./comp/Footer";
 import MobNav from "./comp/MobNav";
 import {useEffect, useState} from "react";
