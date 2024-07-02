@@ -23,9 +23,20 @@ function SpecialOffer() {
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={30}
-                    slidesPerView={3}
+                    slidesPerView={2}
                     navigation
                     pagination={{clickable: true}}
+                    breakpoints={{
+                        368:{
+                            slidesPerView:2
+                        },
+                        768:{
+                            slidesPerView:3
+                        },
+                        1024:{
+                            slidesPerView:4
+                        }
+                    }}
                 >
                     <SwiperSlide>
                         <a className="offer" href="javascript:void(0);">

@@ -9,6 +9,7 @@ import dd6 from "../media/d_suite/디럭스스위트_01_1216x608_20170817170945.
 import dd7 from "../media/d_double/dd7.jpg";
 import dd8 from "../media/d_double/dd8.jpg";
 import dd9 from "../media/d_double/dd9.jpg";
+import SpecialOffer from "./SpecialOffer";
 
 function FourthRoom() {
     return (
@@ -134,6 +135,7 @@ function FourthRoom() {
                     </ul>
                 </div>
             </div>
+            <SpecialOffer/>
         </div>
     )
 }

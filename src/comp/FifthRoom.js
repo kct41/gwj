@@ -9,6 +9,7 @@ import dd6 from "../media/r_suite/로얄스위트_07_1216x608_20170817171221 (1)
 import dd7 from "../media/d_double/dd7.jpg";
 import dd8 from "../media/d_double/dd8.jpg";
 import dd9 from "../media/d_double/dd9.jpg";
+import SpecialOffer from "./SpecialOffer";
 
 function FifthRoom() {
     return (
@@ -134,6 +135,7 @@ function FifthRoom() {
                     </ul>
                 </div>
             </div>
+            <SpecialOffer/>
         </div>
     )
 }

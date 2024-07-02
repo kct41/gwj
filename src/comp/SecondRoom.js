@@ -10,6 +10,7 @@ import dd6 from "../media/d_double/dd6.jpg";
 import dd7 from "../media/d_double/dd7.jpg";
 import dd8 from "../media/d_double/dd8.jpg";
 import dd9 from "../media/d_double/dd9.jpg";
+import SpecialOffer from "./SpecialOffer";
 
 function SecondRoom() {
     return (
@@ -138,6 +139,7 @@ function SecondRoom() {
                     </ul>
                 </div>
             </div>
+            <SpecialOffer/>
         </div>
     )
 }
