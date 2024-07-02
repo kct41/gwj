@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gwj/static/css/main.c6e55365.css",
-    "main.js": "/gwj/static/js/main.25d3bbfc.js",
+    "main.css": "/gwj/static/css/main.33a14a94.css",
+    "main.js": "/gwj/static/js/main.8c444803.js",
     "static/media/gyeongwonjae_20240227143436.mp4": "/gwj/static/media/gyeongwonjae_20240227143436.b56d39e161686dfbbef2.mp4",
     "static/media/로얄스위트_07_1216x608_20170817171221 (1).jpg": "/gwj/static/media/로얄스위트_07_1216x608_20170817171221 (1).3dea0c6a8c3253ae5ad6.jpg",
     "static/media/로얄스위트_07_1216x608_20170817171221.jpg": "/gwj/static/media/로얄스위트_07_1216x608_20170817171221.3dea0c6a8c3253ae5ad6.jpg",
@@ -41,11 +41,11 @@
     "static/media/pc384256_20240108172202.jpg": "/gwj/static/media/pc384256_20240108172202.19050fc6fd2f6bb56ea5.jpg",
     "static/media/upgrade_384256_20240117184430.jpg": "/gwj/static/media/upgrade_384256_20240117184430.ddcc7dac289a43319891.jpg",
     "index.html": "/gwj/index.html",
-    "main.c6e55365.css.map": "/gwj/static/css/main.c6e55365.css.map",
-    "main.25d3bbfc.js.map": "/gwj/static/js/main.25d3bbfc.js.map"
+    "main.33a14a94.css.map": "/gwj/static/css/main.33a14a94.css.map",
+    "main.8c444803.js.map": "/gwj/static/js/main.8c444803.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6e55365.css",
-    "static/js/main.25d3bbfc.js"
+    "static/css/main.33a14a94.css",
+    "static/js/main.8c444803.js"
   ]
 }
