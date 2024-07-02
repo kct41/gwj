@@ -54,7 +54,16 @@ section.main{width:100%;height:100vh;position:relative;}
 section.main > .bg-video{overflow:hidden;width:100%;height:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
 section.main > .bg-video > video{width:100%;height:100%;object-fit:cover;}
 section.main > .booking{width:100%;max-width:1320px;display:flex;z-index: 99;position:absolute;bottom:120px;left:50%;transform:translate(-50%,0);background-color:#fff;}
-section.main > .booking > a,.options,button{padding:18px 35px;width:20%;}
+section.main > .booking > .cal_box,.options,button{border-right:1px solid #f2f2f2;padding:18px 35px;width:20%;}
+section.main > .booking > button{border:none;background-color:#c6a795;color:#fff;font-weight:600;letter-spacing:1px;transition:.2s;}
+section.main > .booking > button:hover{background-color:#957765;cursor:pointer;transition:.2s;}
+section.main > .booking > .cal_box{display:flex;flex-direction:column;}
+section.main > .booking > .cal_box > label{color:#444;font-weight:600;letter-spacing:0.5px;}
+section.main > .booking > .cal_box > input{border:none;color:#999999;}
+section.main > .booking > .options{display:flex;align-items:center;justify-content:space-between;}
+section.main > .booking > .options > p{color:#444;font-weight:600;letter-spacing:0.5px;}
+section.main > .booking > .options > select{display:flex;border:none;}
+
 
 /*  Rooms  */
 .container{max-width:1320px;margin:0 auto;padding:80px 0;}
@@ -64,8 +73,10 @@ section.main > .booking > a,.options,button{padding:18px 35px;width:20%;}
 .container > .room_container{width:100%;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:auto;grid-gap:20px;}
 .container > .room_container > .card{display:block;transition:.3s;}
 /*.container > .room_container > .card:hover{box-shadow:1px 1px 3px rgba(0,0,0,0.3);transform:translate(-3px,-3px);transition:.3s;}*/
-.container > .room_container > .card > img{width:100%;}
-.container > .room_container > .card > h3{font-family:"Jacques Francois", serif;font-size:1.5rem;}
+.container > .room_container > .card > img{width:100%;transition:.5s;}
+.container > .room_container > .card:hover > img{filter:brightness(70%);transition:.5s;}
+.container > .room_container > .card:hover > h3{color:#444;transition:.5s;}
+.container > .room_container > .card > h3{font-family:"Jacques Francois", serif;font-size:1.5rem;transition:.5s;}
 .container > .room_container > .card > p{}
 .container > .room_container > .card > div{margin-top:10px;}
 .container > .room_container > .card > div > p{}
@@ -113,7 +124,7 @@ display:flex;justify-content:center;align-items:center;font-size:2rem;font-weigh
 .room_main > p{font-family:"Jacques Francois", serif;}
 .room_main > img{width:100%;}
 .room_select{}
-.room_select > ul{background-color:#957765;;color:#fff;display:flex;width:100%;justify-content:center;}
+.room_select > ul{background-color:#c6a795;;color:#fff;display:flex;width:100%;justify-content:center;}
 .room_select > ul > a{padding:20px;}
 .room_select > ul > a:hover{background-color:#fff;color:#595959;}
 .container.rooms > h2{font-weight:300;margin-bottom:10px;font-size:1.8rem;font-family: "Jacques Francois", serif;color:#946161;}
@@ -149,9 +160,11 @@ display:flex;justify-content:center;align-items:center;font-size:2rem;font-weigh
     .container > .room_container{grid-template-columns:1fr;}
     .container > .room_container > .card{margin-bottom:20px;}
     .container > .room_container > .card > div > p{}
-    section.main > .booking{display:none;}
+    /*section.main > .booking{display:none;}*/
     .room_swiper{height:400px;}
     .room_swiper img{height:100%;}
+    section.main > .booking{flex-direction:column;width:80vw;bottom:50px;}
+    section.main > .booking > .cal_box,.options,button{border-right:none;border-bottom:1px solid #f2f2f2;width:100%;padding:12px 25px;}
 }
 
 @media(max-width: 768px){

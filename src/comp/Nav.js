@@ -4,7 +4,7 @@ import logo from "../media/gwj_20170907105728_20180529135813.png";
 function Nav(){
     return(
         <nav>
-            <Link to="/">
+            <Link to="/gwj">
                 <img src={logo} alt="logo"/>
             </Link>
             <ul>

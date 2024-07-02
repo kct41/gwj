@@ -48,10 +48,10 @@ function Rooms(){
                 </Link>
                 <Link to="/rooms/rsuite" className="card">
                     <img src={room5} alt="Deluxe Double Room"/>
-                    <h3>Rolay Suite</h3>
+                    <h3>Royal Suite</h3>
                     <p>로얄 스위트</p>
                     <div>
-                        <p>커다란 대문, 넓은 잔디 마당과 툇마루까지 갖춘 별채 형태의 객실입니다. </p>
+                        <p>커다란 대문, 넓은 잔디 마당과 툇마루까지 갖춘 별채 형태의 객실입니다.</p>
                     </div>
                 </Link>
             </div>

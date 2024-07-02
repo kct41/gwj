@@ -5,7 +5,7 @@ function MobNav() {
     return (
         <div className="mob_nav">
             <h1>
-                <Link to="/"><img src={logo} alt="경원재 로고"/></Link>
+                <Link to="/gwj"><img src={logo} alt="경원재 로고"/></Link>
             </h1>
             <input className="burger-check" type="checkbox" id="burger-check"></input>
             <label className="burger-icon" htmlFor="burger-check">
@@ -20,10 +20,10 @@ function MobNav() {
                         <p>마이페이지</p>
                     </div>
                     <ul>
-                        <li><Link to="/">객실소개</Link></li>
-                        <li><Link to="/">편의시설</Link></li>
-                        <li><Link to="/">스페셜 오퍼</Link></li>
-                        <li><Link to="/">멤버십</Link></li>
+                        <li><Link to="/rooms">객실소개</Link></li>
+                        <li><Link to="/gwj">편의시설</Link></li>
+                        <li><Link to="/gwj">스페셜 오퍼</Link></li>
+                        <li><Link to="/gwj">멤버십</Link></li>
                     </ul>
                     <div className="book_btn">예약하기</div>
                 </div>

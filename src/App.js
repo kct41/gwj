@@ -11,6 +11,7 @@ import SecondRoom from "./comp/SecondRoom";
 import ThirdRoom from "./comp/ThirdRoom";
 import FourthRoom from "./comp/FourthRoom";
 import FifthRoom from "./comp/FifthRoom";
+import ScrollTop from "./comp/ScrollTop";
 
 function App() {
 
@@ -34,15 +35,15 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
+                <ScrollTop/>
                 {windowSize.width > 768 ? <Nav/> : <MobNav/>}
-                {/*<FirstRoom/>*/}
                 <Routes>
                     <Route path="/rooms" element={<FirstRoom/>}></Route>
                     <Route path="/rooms/ds" element={<SecondRoom/>}></Route>
                     <Route path="/rooms/do" element={<ThirdRoom/>}></Route>
                     <Route path="/rooms/dsuite" element={<FourthRoom/>}></Route>
                     <Route path="/rooms/rsuite" element={<FifthRoom/>}></Route>
-                    <Route path="/" element={<Home/>}></Route>
+                    <Route path="/gwj" element={<Home/>}></Route>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
