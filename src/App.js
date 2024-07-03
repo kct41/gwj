@@ -2,7 +2,6 @@ import './App.css';
 import Nav from "./comp/Nav";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Footer from "./comp/Footer";
-import MobNav from "./comp/MobNav";
 import {useEffect, useState} from "react";
 import debounce from "lodash.debounce";
 import FirstRoom from "./comp/FirstRoom";
@@ -12,6 +11,7 @@ import ThirdRoom from "./comp/ThirdRoom";
 import FourthRoom from "./comp/FourthRoom";
 import FifthRoom from "./comp/FifthRoom";
 import ScrollTop from "./comp/ScrollTop";
+import MobileMenu from "./comp/MobileMenu";
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <ScrollTop/>
-                {windowSize.width > 768 ? <Nav/> : <MobNav/>}
+                {windowSize.width > 768 ? <Nav/> : <MobileMenu/>}
                 <Routes>
                     <Route path="/rooms" element={<FirstRoom/>}></Route>
                     <Route path="/rooms/ds" element={<SecondRoom/>}></Route>

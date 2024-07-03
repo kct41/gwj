@@ -28,7 +28,7 @@ function SpecialOffer() {
                     pagination={{clickable: true}}
                     breakpoints={{
                         368:{
-                            slidesPerView:2
+                            slidesPerView:1
                         },
                         768:{
                             slidesPerView:3
