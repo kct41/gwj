@@ -6,11 +6,14 @@ function MobileMenu() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
+
+        const html = document.querySelector('html');
         if (menuOpen) {
             // 메뉴닫힘
             document.querySelector('.menuwrap').classList.remove('on');
             document.querySelector('.mobile-menu i').classList.remove('fa-times');
             document.querySelector('.mobile-menu i').classList.add('fa-bars');
+            html.classList.toggle('hidden');
             document.querySelector('.mobile-menu i').style.color = '#fff';
 
             // 페이지 스크롤 락 해제

@@ -9,10 +9,10 @@ function Nav(){
             </Link>
             <ul>
                 <li><Link to="/rooms">객실소개</Link></li>
-                <li><Link to="/">편의시설</Link></li>
-                <li><Link to="/">스페셜 오퍼</Link></li>
-                <li><Link to="/">멤버십</Link></li>
-                <li><Link to="/">예약하기</Link></li>
+                <li><Link to="/gwj">편의시설</Link></li>
+                <li><Link to="/gwj">스페셜 오퍼</Link></li>
+                <li><Link to="/gwj">멤버십</Link></li>
+                <li><Link to="/gwj">예약하기</Link></li>
             </ul>
         </nav>
     )
